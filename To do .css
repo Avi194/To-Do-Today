@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+}
+header{
+    font-size:20px;
+    height: 150px;
+    width: auto;
+    max-width: 100%;
+    background-color: #00A2E8;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+nav li{
+    list-style-type: none;
+    margin-right: 75px;
+}
+#logo1 {
+    color: rgb(173, 165, 165);
+    background-color: white;
+    border: solid;
+    padding: 20px 15px;
+    border-radius: 50px;
+    position: relative;
+    top: 55px;
+    left: 48px;
+    
+}
+nav li{
+    position: relative;
+    top: 75px;
+    left:100px;
+    
+}
+.leftnav{
+    display: flex;
+    flex-direction: row;
+}
+
+.naviright{
+    position: relative;
+    left: 700px;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 20.5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body {
+    
+    background-repeat: no-repeat;
+    background: linear-gradient(to right, red, yellow, green);
+
+
+  }
+.container{
+    position: relative;
+    left: 500px;
+    background-color: rgb(235, 235, 235);
+    min-width:500px;
+    max-width: fit-content;
+    min-height: 250px;
+    max-height: fit-content;
+    border-radius: 10px;
+}
+.center{
+    width: 1000px;
+    height: 100px;
+   
+}
+.row{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 150px;
+}
+.row img{
+    text-align: center;
+    margin-top: 15px;
+    height: 39px;
+    width:50px
+    
+}
+input{
+    position: relative;
+    left: 15px;
+    width: 385px;
+    height: 45px;
+    border:none;
+    outline: none;
+    background-color: #b2d0dd;
+    border-radius: 15px;
+    overflow: visible;
+}
+button{
+    margin-left:10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    width:75px;
+    height: 45px;
+    border-radius: 25px;
+    overflow: visible;
+}
+ul li{
+    margin-top: 5px;
+    font-size: 17px;
+    list-style-type: none;
+    text-align: left;
+    cursor:pointer;
+    position: relative;
+}
+ li::before{
+    content:'';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-image: url(unchecked.png);
+    background-position: center;
+    left:8px;
+    top: 12px;
+}
+span{
+    position: relative;
+    left: auto;
+    background-color: #fff;
+    color: black;
+    border: none;
+    text-decoration: none;
+
+}
